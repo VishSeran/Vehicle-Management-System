@@ -1,0 +1,106 @@
+
+
+:root {
+    background-image: url('C:\Users\Vish\Downloads\wallpaperflare.com_wallpaper (11).jpg');
+    background-size: cover;
+    color: #ffffff;
+    
+}
+
+.login{
+
+    position: relative;
+    width: 22.2rem;
+}
+
+.lInput{
+    
+    box-shadow: 0 0 16px 1px rgba(3, 3, 3, 0.2);
+    animation: wobble 0.3s ease-in;
+    -webkit-animation: wobble 0.3s ease-in;
+    position: relative;
+    bottom:100px;
+    left:405px;
+
+    background-color: var(--primary-color);
+    color: var(--color);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline:#ffffff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+    bottom:100px;
+    
+}
+
+.lInput2{
+    
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+    animation: wobble 0.3s ease-in;
+    -webkit-animation: wobble 0.3s ease-in;
+    position: relative;
+    top:10px;
+    right:250px;
+    
+
+    background-color: var(--primary-color);
+    color: var(--color);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline:#ffffff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+    border-color: black;
+    
+    
+}
+
+
+
+
+
+.lButton{
+
+    border: none;
+    position: relative;
+    top: 200px;
+    right: 690px;
+    box-shadow: 0 0 16px 1px rgba(45, 7, 101, 0.2);
+
+    padding: 10px 85px;
+    background-color: rgb(31, 18, 215);
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 15px;
+
+    
+
+}
+
+.lButton:disabled{
+    background-color: rgb(9, 0, 132);
+    cursor: not-allowed;
+
+}
+
+.lContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
